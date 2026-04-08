@@ -76,3 +76,6 @@ La URL del servicio SOAP de ACME se configura en `application.properties`:
 - Comparto una captura de pantalla para evidenciar el funcionamiento
 del servicio mockeado en mi entorno:
 ![Servicio que provee mi servidor](https://i.imgur.com/rMRtzJd.png)
+
+- Comparto una captura de pantalla más, para evidenciar el correcto funcionamiento de la API implementada para la prueba desde postman en el puerto 8080:
+  ![API Java Springboot funcionando](https://i.imgur.com/r22WuOP.png)
