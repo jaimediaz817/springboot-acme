@@ -69,3 +69,10 @@ La URL del servicio SOAP de ACME se configura en `application.properties`:
 - Dado que la url que exponen en el ejercio: https://run.mocky.io/v3/19217075-6d4e-4818-98bc-416d1feb7b84
   NO funcionó! respondio un 404, implementé en mi servidor de producción de pruebas (https://jaimediaz.dev) un endpoint que actúa como MOCK de SOAP es decir, envío el XML de la petición, el servicio responde
   con XML y el servicio de Sporingboot parsea común y corriente como lo exige el ejercicio.
+
+- Comparto una captura de pantalla evidenciando el problema:
+![Error Mocky](https://i.imgur.com/pqM0IIU.png)
+
+- Comparto una captura de pantalla para evidenciar el funcionamiento
+del servicio mockeado en mi entorno:
+![Servicio que provee mi servidor](https://i.imgur.com/rMRtzJd.png)
