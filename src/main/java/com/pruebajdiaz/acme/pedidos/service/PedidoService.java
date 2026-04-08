@@ -84,7 +84,7 @@ public class PedidoService {
      * @return
      */
     private String getServicioSoap(String xmlRequest) {
-        // ✅ IMPRIME EL XML QUE ESTAS ENVIANDO EXACTAMENTE
+        // IMPRIME EL XML QUE ESTAS ENVIANDO EXACTAMENTE
         System.out.println("\n📤 ENVIANDO PETICION XML:");
         System.out.println("=".repeat(100));
         System.out.println(xmlRequest);
